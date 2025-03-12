@@ -1,0 +1,290 @@
+{
+  "players": [
+    {
+      "playerID": "P1",
+      "username": "Player1",
+      "age": 25,
+      "previousScores": [
+        {
+          "score": 72,
+          "date": "2023-09-21"
+        },
+        {
+          "score": 75,
+          "date": "2023-09-14"
+        }
+      ]
+    }
+  ],
+  "users": [
+    {
+      "userID": "U1",
+      "password": "hashedPassword",
+      "player": {
+        "playerID": "P1",
+        "username": "Player1"
+      }
+    }
+  ],
+  "parties": [
+    {
+      "partyID": "PA1",
+      "courseID": "C1",
+      "players": [
+        {
+          "playerID": "P1",
+          "username": "Player1"
+        },
+        {
+          "playerID": "P2",
+          "username": "Player2"
+        }
+      ]
+    }
+  ],
+  "golfCourses": [
+    {
+      "courseID": "C1",
+      "courseName": "Castle Bay",
+      "handicap": 76,
+      "Holes": [
+          {
+            "hole": 1,
+            "par": 4,
+            "handicap": 17,
+            "yardages": {
+              "gold": 356,
+              "blue": 342,
+              "white": 320,
+              "green": 310,
+              "red": 258
+            }
+          },
+          {
+            "hole": 2,
+            "par": 4,
+            "handicap": 11,
+            "yardages": {
+              "gold": 353,
+              "blue": 301,
+              "white": 283,
+              "green": 270,
+              "red": 253
+            }
+          },
+          {
+            "hole": 3,
+            "par": 3,
+            "handicap": 7,
+            "yardages": {
+              "gold": 166,
+              "blue": 157,
+              "white": 133,
+              "green": 128,
+              "red": 108
+            }
+          },
+          {
+            "hole": 4,
+            "par": 5,
+            "handicap": 1,
+            "yardages": {
+              "gold": 589,
+              "blue": 563,
+              "white": 549,
+              "green": 509,
+              "red": 391
+            }
+          },
+          {
+            "hole": 5,
+            "par": 3,
+            "handicap": 9,
+            "yardages": {
+              "gold": 174,
+              "blue": 161,
+              "white": 152,
+              "green": 141,
+              "red": 126
+            }
+          },
+          {
+            "hole": 6,
+            "par": 4,
+            "handicap": 15,
+            "yardages": {
+              "gold": 347,
+              "blue": 328,
+              "white": 320,
+              "green": 308,
+              "red": 278
+            }
+          },
+          {
+            "hole": 7,
+            "par": 4,
+            "handicap": 3,
+            "yardages": {
+              "gold": 432,
+              "blue": 408,
+              "white": 381,
+              "green": 315,
+              "red": 287
+            }
+          },
+          {
+            "hole": 8,
+            "par": 5,
+            "handicap": 5,
+            "yardages": {
+              "gold": 566,
+              "blue": 536,
+              "white": 483,
+              "green": 462,
+              "red": 406
+            }
+          },
+          {
+            "hole": 9,
+            "par": 4,
+            "handicap": 13,
+            "yardages": {
+              "gold": 356,
+              "blue": 345,
+              "white": 323,
+              "green": 323,
+              "red": 241
+            }
+          },
+          {
+            "hole": 10,
+            "par": 4,
+            "handicap": 18,
+            "yardages": {
+              "gold": 387,
+              "blue": 361,
+              "white": 342,
+              "green": 324,
+              "red": 312
+            }
+          },
+          {
+            "hole": 11,
+            "par": 5,
+            "handicap": 14,
+            "yardages": {
+              "gold": 530,
+              "blue": 508,
+              "white": 467,
+              "green": 455,
+              "red": 390
+            }
+          },
+          {
+            "hole": 12,
+            "par": 3,
+            "handicap": 8,
+            "yardages": {
+              "gold": 181,
+              "blue": 157,
+              "white": 139,
+              "green": 124,
+              "red": 103
+            }
+          },
+          {
+            "hole": 13,
+            "par": 4,
+            "handicap": 10,
+            "yardages": {
+              "gold": 398,
+              "blue": 375,
+              "white": 351,
+              "green": 334,
+              "red": 278
+            }
+          },
+          {
+            "hole": 14,
+            "par": 4,
+            "handicap": 6,
+            "yardages": {
+              "gold": 567,
+              "blue": 555,
+              "white": 437,
+              "green": 430,
+              "red": 404
+            }
+          },
+          {
+            "hole": 15,
+            "par": 4,
+            "handicap": 12,
+            "yardages": {
+              "gold": 390,
+              "blue": 377,
+              "white": 339,
+              "green": 323,
+              "red": 293
+            }
+          },
+          {
+            "hole": 16,
+            "par": 3,
+            "handicap": 2,
+            "yardages": {
+              "gold": 199,
+              "blue": 179,
+              "white": 168,
+              "green": 160,
+              "red": 129
+            }
+          },
+          {
+            "hole": 17,
+            "par": 4,
+            "handicap": 16,
+            "yardages": {
+              "gold": 441,
+              "blue": 418,
+              "white": 370,
+              "green": 335,
+              "red": 327
+            }
+          },
+          {
+            "hole": 18,
+            "par": 4,
+            "handicap": 4,
+            "yardages": {
+              "gold": 266,
+              "blue": 257,
+              "white": 226,
+              "green": 215,
+              "red": 192
+            }
+          }
+        ]
+
+    }
+  ],
+  "scorecards": [
+    {
+      "scorecardID": "SC1",
+      "courseID": "C1",
+      "holes": [
+        {
+          "holeNumber": 1,
+          "par": 4,
+          "handicap": 1
+        },
+        {
+          "holeNumber": 2,
+          "par": 3,
+          "handicap": 2
+        }
+      ]
+    }
+  ]
+}
+

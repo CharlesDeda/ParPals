@@ -1,0 +1,36 @@
+5 tables
+1. Golf Course [Array]
+    1. holes: Array[Dict] from 0-18
+        1. handicap: int
+        2. hole: int
+        3. par: int
+        4. yardages Array[Dict]
+    2. courseID: String
+    3. courseName: string
+    4. handicap: int
+2. Parties [Array]
+    1. courseID: String
+    2. partyID: String
+    3. Players [Array]
+        1. PlayerID: String
+        2. scorecardID: String
+        3. username: String
+3. Players [Array]
+    1. Age: Int
+    2. PlayerID: String
+    3. Previous Scores Array[Dict]
+        1. Date
+        2. Score
+        3. Handicap
+4. Scorecards [Array]
+    1. courseID: String
+    2. Holes Dict[Array]
+    3. playingFrom: "White": String
+    4. scorecardID: "SC1": String
+    5. totalScore: int
+5. Users [Array]
+    1. Password: String
+    2. userID: String
+    3. player Dict
+        1. playerID: String
+        2. username: String
